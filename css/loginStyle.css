@@ -228,7 +228,6 @@ label {
 
 .forgot-password:hover {
   color: white;
-  opacity: 0.9;
 }
 
 /* .cont-google img {
@@ -248,10 +247,10 @@ label {
 
 .continue-google {
   display: flex;
-  width: 60%;
+  width: 70%;
   margin: 30px auto;
   padding: 5px 5px;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 1px;
   opacity: 0.7;
   background: rgba(255, 255, 255, 0.3);
@@ -264,6 +263,10 @@ label {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   transition: all 0.5s ease;
+}
+
+.continue-google span {
+  text-decoration: underline;
 }
 
 .continue-google:hover {
