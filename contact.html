@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Form | CodingNepal</title>
+    <link rel="stylesheet" href="css/contactStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <!-- LOGO -->
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="RentME" />
+      </a>
+      <!-- <ul class="nav-menu">
+        <li><a href="index.html">About us</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul> -->
+      <ul class="nav-buttons">
+        <li>
+          <a href="index.html" class="home-button"
+            ><span><img src="img/home.png" alt="" /></span> Home</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <header>Send us a Message</header>
+      <form action="#">
+        <div class="dbl-field">
+          <div class="field">
+            <input
+              type="text"
+              name="fname"
+              placeholder="Enter your first name"
+            />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="lname"
+              placeholder="Enter your last name"
+            />
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="email" placeholder="Enter your email" />
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="field">
+            <input type="text" name="phone" placeholder="Enter your phone" />
+            <i class="fas fa-phone-alt"></i>
+          </div>
+        </div>
+        <div class="message">
+          <textarea placeholder="Write your message" name="message"></textarea>
+          <i class="material-icons">message</i>
+        </div>
+        <div class="button-area">
+          <button type="submit">Send Message</button>
+          <span></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

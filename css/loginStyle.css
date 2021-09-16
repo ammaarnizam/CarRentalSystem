@@ -6,9 +6,13 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-
+::placeholder {
+  color: #000;
+  opacity: 0.7;
+  font-family: signika;
+}
 ::selection {
-  background-color: #48dbfb60;
+  background-color: #4863fbbb;
 }
 
 ::-webkit-scrollbar {
@@ -221,13 +225,14 @@ label {
   text-align: center;
   margin-top: 15px;
   color: white;
-  opacity: 0.7;
+  opacity: 0.5;
   text-decoration: underline;
   transition: all 0.3s ease;
 }
 
 .forgot-password:hover {
   color: white;
+  opacity: 0.9;
 }
 
 /* .cont-google img {
