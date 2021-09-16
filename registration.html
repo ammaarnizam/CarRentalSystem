@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Contact Form | CodingNepal</title>
-    <link rel="stylesheet" href="css/contactStyle.css" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/registrationStyle.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
 
     <link
@@ -41,7 +41,7 @@
     </nav>
 
     <div class="wrapper">
-      <header>Send us a Message</header>
+      <header>Registration</header>
       <form action="#">
         <div class="dbl-field">
           <div class="field">
@@ -71,12 +71,30 @@
             <i class="fas fa-phone-alt"></i>
           </div>
         </div>
-        <div class="message">
-          <textarea placeholder="Write your message" name="message"></textarea>
-          <i class="material-icons">message</i>
+        <div class="dbl-field">
+          <div class="field">
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="field">
+            <input
+              type="password"
+              name="confPassword"
+              placeholder="Confirm your password"
+            />
+            <i class="fas fa-lock"></i>
+          </div>
+        </div>
+        <div class="address">
+          <textarea placeholder="Address" name="address"></textarea>
+          <i class="material-icons">home</i>
         </div>
         <div class="button-area">
-          <button type="submit">Send Message</button>
+          <button type="submit">Register</button>
           <span></span>
         </div>
       </form>
