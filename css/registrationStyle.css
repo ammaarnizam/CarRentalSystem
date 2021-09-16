@@ -81,6 +81,14 @@ nav ul {
   font-size: 18px;
 }
 
+.login-button {
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.login-button:hover {
+  background-color: #f6bc01;
+}
+
 .home-button span img {
   height: 20px;
   padding-right: 10px;
